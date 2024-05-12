@@ -21,6 +21,7 @@ body {
   /* aqui definimos 3 linhas e 2 colunas */
   grid-template-rows: 80px 1fr 80px;
   grid-template-columns: 200px 1fr;
+  /* fr seta o tamanho que sobrou */
     grid-template-areas: 
     "sidebar header header"
     "sidebar main main"
