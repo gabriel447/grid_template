@@ -18,7 +18,8 @@ body {
   height: 100vh;
   margin: 0px;
   display: grid;
-  grid-template-rows: 120px 1fr 60px;
+  /* aqui definimos 3 linhas e 2 colunas */
+  grid-template-rows: 80px 1fr 80px;
   grid-template-columns: 200px 1fr;
     grid-template-areas: 
     "sidebar header header"
@@ -39,12 +40,12 @@ body {
 .main {
   grid-area: main;
   background-color: coral;
-  height: calc(100vh - 180px);
+  /* height: calc(100vh - 180px); */
 }
   
 .footer {
   grid-area: footer;
   background-color: mediumslateblue;
-  position: sticky;
-  bottom: 0px;
+  /* position: sticky;
+  bottom: 0px; */
 }
